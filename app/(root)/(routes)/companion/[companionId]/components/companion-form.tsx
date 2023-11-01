@@ -100,7 +100,7 @@ const CompanionForm = ({ initialData, categories }: CompanionFormProps) => {
 
         router.refresh();
         router.push('/');
-        
+
     } catch (error) {
       toast({
         variant: "destructive",
